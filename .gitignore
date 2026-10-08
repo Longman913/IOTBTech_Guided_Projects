@@ -6,7 +6,7 @@
 *.tfstate.*
 
 # .tfvars files (exclude secrets) - uncomment if you have secret values
- *.tfvars
+*.tfvars
 # *.tfvars.json
 
 # Crash log files
@@ -28,3 +28,5 @@ override.tf.json
 # Include tfplan files to ignore the plan output of command: terraform plan -out=tfplan
 tfplan
 *.tfplan
+
+*.terraform*
