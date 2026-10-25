@@ -5,9 +5,12 @@
 *.tfstate
 *.tfstate.*
 
-# .tfvars files (exclude secrets) - uncomment if you have secret values
+# .tfvars files (exclude secrets)
 *.tfvars
-# *.tfvars.json
+*.tfvars.json
+
+# Terraform dependency lock file
+.terraform.lock.hcl
 
 # Crash log files
 crash.log
